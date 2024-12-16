@@ -286,6 +286,10 @@ main {
     gap: 2rem;
 }
 
+.about_button{
+    text-align: center;
+}
+
 .about__text {
     display: flex;
     flex-direction: column;
@@ -350,6 +354,10 @@ main {
 .contact__right {
     line-height: 3rem;
     padding: 2rem;
+}
+
+.contact__link span {
+    color: var(--box-text-color);
 }
 
 .contact__link a:hover {
